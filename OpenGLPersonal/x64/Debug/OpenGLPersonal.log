@@ -1,0 +1,3 @@
+﻿  Source.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  OpenGLPersonal.vcxproj -> F:\game_engine\learn_opengl\OpenGLPersonal\x64\Debug\OpenGLPersonal.exe
