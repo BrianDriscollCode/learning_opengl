@@ -1,10 +1,2 @@
 ﻿  Source.cpp
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(208,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(286,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(287,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(291,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(292,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(293,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-F:\game_engine\learn_opengl\OpenGLPersonal\OpenGLPersonal\Source.cpp(294,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OpenGLPersonal.vcxproj -> F:\game_engine\learn_opengl\OpenGLPersonal\x64\Debug\OpenGLPersonal.exe

@@ -82,6 +82,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera\camera.h" />
     <ClInclude Include="glm\glm.hpp" />
     <ClInclude Include="glm\gtc\matrix_transform.hpp" />
     <ClInclude Include="glm\gtc\type_ptr.hpp" />
