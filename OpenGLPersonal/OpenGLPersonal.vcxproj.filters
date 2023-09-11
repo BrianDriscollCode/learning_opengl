@@ -41,6 +41,9 @@
     <ClInclude Include="camera\camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="glm\ext.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\shader.vert" />

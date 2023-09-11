@@ -26,10 +26,6 @@ float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
 
-glm::vec3 cameraPos     =   glm::vec3(0.0f, 0.0f, 3.0f);
-glm::vec3 cameraFront   =   glm::vec3(0.0f, 0.0f, -1.0f);
-glm::vec3 cameraUp      =   glm::vec3(0.0f, 1.0f, 0.0f);
-
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
@@ -276,8 +272,6 @@ void processInput(GLFWwindow* window)
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
         camera.ProcessKeyboard(RIGHT, deltaTime);
 
-
-
 }
 
 void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
@@ -299,8 +293,6 @@ void mouse_callback(GLFWwindow* window, double xposIn, double yposIn)
     lastY = ypos;
 
     camera.ProcessMouseMovement(xoffset, yoffset);
-
-
 
 }
 
